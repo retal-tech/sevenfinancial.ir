@@ -54,24 +54,29 @@ hero slider section
 hero_pagination = [
     {
         icon: 'assets/images/icons/icon-4.png',
-        name: 'Taxtation',
-        paragraph: 'Tax planning and complicated tax return preparation.'
+        name: 'خدمت ۱',
+        paragraph: 'لورم اپیسوم'
     },
     {
         icon: 'assets/images/icons/icon-5.png',
-        name: 'Business',
-        paragraph: 'CFO level work for small and medium sizes businesses.'
+        name: 'خدمت ۲',
+        paragraph: 'لورم اپیسوم'
     },
     {
         icon: 'assets/images/icons/icon-6.png',
-        name: 'Consulting',
-        paragraph: 'Expert advice on financial planning, mergers, estate and more.'
+        name: 'خدمت ۳',
+        paragraph: 'لورم اپیسوم'
     },
     {
         icon: 'assets/images/icons/icon-7.png',
-        name: 'Giving',
-        paragraph: 'Charitable work for the local community and beyound.'
-    }
+        name: 'خدمت ۴',
+        paragraph: 'لورم اپیسوم'
+    },
+    {
+        icon: 'assets/images/icons/icon-7.png',
+        name: 'خدمت ۵',
+        paragraph: 'لورم اپیسوم'
+    },
 ]
 
 const hero_swiper = new Swiper('.hero-slider-container', {
@@ -104,7 +109,7 @@ hero pagination
 
 const hero_swiper_pagination = new Swiper('.hero-pagination', {
     init: true,
-    slidesPerView: 4,
+    slidesPerView: 5,
     spaceBetween: 14,
     breakpoints: {
         0: {
@@ -126,7 +131,7 @@ const hero_swiper_pagination = new Swiper('.hero-pagination', {
             enabled: true
         },
         992: {
-            slidesPerView: 4,
+            slidesPerView: 5,
             centeredSlides: false,
             slideToClickedSlide: false,
             enabled: false
